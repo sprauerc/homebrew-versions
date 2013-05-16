@@ -7,7 +7,7 @@ class Postgis15 < Formula
 
   option 'with-gui', 'Build sh2pgsql-gui in addition to CLI tools'
 
-  depends_on 'postgresql9'
+  depends_on 'postgresql'
   depends_on 'proj'
   depends_on 'geos'
   depends_on 'gtk+' if build.with? 'gui'
